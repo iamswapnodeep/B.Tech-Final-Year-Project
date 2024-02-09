@@ -21,11 +21,3 @@ df = pd.read_csv(path_battery47)
 soh_data_battery47 = df["soh"] 
 df = pd.read_csv(path_battery48)
 soh_data_battery48 = df["soh"]
-
-#check the soh data
-print(soh_data_battery5) 
-print(soh_data_battery6) 
-print(soh_data_battery45) 
-print(soh_data_battery46) 
-print(soh_data_battery47) 
-print(soh_data_battery48) 
